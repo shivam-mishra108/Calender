@@ -311,10 +311,23 @@ body {
     }
 }
 
+.developer p{
+    font-family: sans-serif;
+    text-decoration: underline var(--color-hover);
+    font-size: 2rem;
+}
 /* ----------------media queries---------- */
+@media(max-width:1020px){
+    .developer{
+      transform: translateY(-15rem);
+    }
+}
 @media(max-width:768px){
     .calendar{
         transform: scale(.8);
+    }
+    .developer{
+      transform: translateY(-11rem);
     }
 }
 
