@@ -319,7 +319,7 @@ body {
 /* ----------------media queries---------- */
 @media(max-width:1020px){
     .developer{
-      transform: translateY(-7rem);
+      transform: translateY(-4rem);
     }
 }
 @media(max-width:768px){
@@ -327,7 +327,7 @@ body {
         transform: scale(.8);
     }
     .developer{
-      transform: translateY(-7rem);
+      transform: translateY(-4rem);
     }
 }
 
