@@ -314,12 +314,12 @@ body {
 .developer p{
     font-family: sans-serif;
     text-decoration: underline var(--color-hover);
-    font-size: 2rem;
+    font-size: 1rem;
 }
 /* ----------------media queries---------- */
 @media(max-width:1020px){
     .developer{
-      transform: translateY(-15rem);
+      transform: translateY(-7rem);
     }
 }
 @media(max-width:768px){
@@ -327,7 +327,7 @@ body {
         transform: scale(.8);
     }
     .developer{
-      transform: translateY(-11rem);
+      transform: translateY(-7rem);
     }
 }
 
